@@ -7,12 +7,10 @@ export default function Home() {
   return (
     <div className="flex h-screen w-full bg-slate-300 items-center justify-center">
       <div className="bg-blue-500 max-h-56 flex items-center justify-center p-10 text-xl">
-
         {text}
         <br/>
         {text2}
       </div>
-     
-    </div>
+     </div>
   );
 }
